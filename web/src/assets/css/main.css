@@ -1,0 +1,10 @@
+@import './base.css';
+
+#app {
+  overflow: hidden;
+  color: #efefef;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: courier-new, courier, monospace;
+}
+

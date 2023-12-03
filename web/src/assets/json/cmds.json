@@ -1,0 +1,139 @@
+{
+  "osCmdList":[
+    {
+      "cmd": "cd",
+      "text": "xx",
+      "detail": "进入XX项目页"
+    },
+    {
+      "cmd": "cd..",
+      "text": "",
+      "detail": "进入根项目页"
+    }
+  ],
+  "cmdList": [
+    {
+      "cmd": "help",
+      "text": "",
+      "detail": "帮助"
+    },
+    {
+      "path": "fanyi",
+      "list": [
+        {
+          "cmd": "",
+          "text": "xx",
+          "detail": "将xx翻译为英文"
+        }
+      ]
+    },
+    {
+      "path": "shuqian",
+      "list": [
+        {
+          "cmd": "list",
+          "text": "",
+          "detail": "获取书签列表"
+        },
+        {
+          "cmd": "add",
+          "text": "xx url",
+          "detail": "将url以xx名称加入书签列表"
+        },
+        {
+          "cmd": "del",
+          "text": "xx",
+          "detail": "将xx移除书签列表"
+        },
+        {
+          "cmd": "export",
+          "text": "",
+          "detail": "导出书签列表"
+        }
+      ]
+    },
+    {
+      "path": "sousuo",
+      "list": [
+        {
+          "cmd": "",
+          "text": "xx",
+          "detail": "跳转百度搜索xx"
+        },
+        {
+          "cmd": "baidu",
+          "text": "xx",
+          "detail": "跳转百度搜索xx"
+        },
+        {
+          "cmd": "csdn",
+          "text": "xx",
+          "detail": "跳转csdn搜索xx"
+        }
+      ]
+    },
+    {
+      "path": "resou",
+      "list": [
+        {
+          "cmd": "weibo",
+          "text": "",
+          "detail": "获取微博热搜"
+        },
+        {
+          "cmd": "baidu",
+          "text": "",
+          "detail": "获取百度热搜"
+        },
+        {
+          "cmd": "zhihu",
+          "text": "",
+          "detail": "获取知乎热搜"
+        },
+        {
+          "cmd": "csdn",
+          "text": "",
+          "detail": "获取CSDN热搜"
+        }
+      ]
+    },
+    {
+      "path": "music",
+      "list": [
+        {
+          "cmd": "tuijian",
+          "text": "",
+          "detail": "获取推荐的音乐列表"
+        }
+      ]
+    },
+    {
+      "path": "chat",
+      "list": [
+        {
+          "cmd": "",
+          "text": "xx",
+          "detail": "问xx问题"
+        }
+      ]
+    }
+  ],
+  "keyList": [
+    {
+      "text": "ctrl+c",
+      "detail": "终结当前运行中的命令"
+    },
+    {
+      "text": "ctrl+l",
+      "detail": "清屏"
+    },
+    {
+      "text": "↑",
+      "detail": "上一条历史命令"
+    },
+    {
+      "text": "↓",
+      "detail": "下一条历史命令"
+    }
+  ]
+}
